@@ -23,7 +23,7 @@ function def_deadzone_xboxdrv() {
 }
 
 function depends_xboxdrv() {
-    getDepends libboost-dev libusb-1.0-0-dev libudev-dev libx11-dev scons pkg-config x11proto-core-dev libdbus-glib-1-dev
+    getDepends libboost-dev libusb-1.0-0-dev libeudev-dev libx11-dev scons pkg-config x11proto-core-dev libdbus-glib-1-dev
 }
 
 function sources_xboxdrv() {

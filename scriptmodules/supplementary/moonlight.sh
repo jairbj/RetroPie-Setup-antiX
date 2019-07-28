@@ -61,7 +61,7 @@ function _bfmt_moonlight() {
 function depends_moonlight() {
     # ref: https://github.com/irtimmer/moonlight-embedded/wiki/Compilation#debian-raspbian--osmc
     local depends=(
-        libssl-dev libopus-dev libasound2-dev libudev-dev
+        libssl-dev libopus-dev libasound2-dev libeudev-dev
         libavahi-client-dev libcurl4-openssl-dev libevdev-dev
         libexpat1-dev libpulse-dev libenet-dev uuid-dev cmake
     )

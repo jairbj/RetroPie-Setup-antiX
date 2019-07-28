@@ -65,7 +65,7 @@ function _add_rom_mehstation() {
 function depends_mehstation() {
     local depends=(
         cmake automake libfreeimage-dev libopenal-dev libpango1.0-dev
-        libsndfile1-dev libudev-dev libasound2-dev libjpeg-dev
+        libsndfile1-dev libeudev-dev libasound2-dev libjpeg-dev
         libtiff5-dev libwebp-dev libsqlite3-dev libavutil-dev libavcodec-dev
         libavformat-dev libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev
         libsdl2-image-dev sqlite3 golang
