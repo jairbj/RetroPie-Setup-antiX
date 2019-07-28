@@ -12,7 +12,7 @@ To run the RetroPie Setup Script make sure that your APT repositories are up-to-
 
 ```shell
 sudo apt-get update
-sudo apt-get dist-upgrade
+sudo apt-get upgrade
 sudo apt-get install git
 ```
 
@@ -20,13 +20,14 @@ Then you can download the latest RetroPie setup script with
 
 ```shell
 cd
-git clone --depth=1 https://github.com/RetroPie/RetroPie-Setup.git
+git clone --depth=1 https://github.com/jairbj/RetroPie-Setup-antiX
 ```
 
 The script is executed with 
 
 ```shell
-cd RetroPie-Setup
+cd RetroPie-Setup-antiX
+sudo ./emulation_station_packages.sh
 sudo ./retropie_setup.sh
 ```
 
