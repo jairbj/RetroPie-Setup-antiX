@@ -75,7 +75,7 @@ function get_os_version() {
     
     local error=""
     case "$__os_id" in
-        Raspbian|Debian)
+        Raspbian|Debian|antiX)
             # get major version (8 instead of 8.0 etc)
             __os_debian_ver="${__os_release%%.*}"
 
