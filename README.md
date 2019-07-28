@@ -27,7 +27,7 @@ The script is executed with
 
 ```shell
 cd RetroPie-Setup-antiX
-sudo ./emulation_station_packages.sh
+sudo sh emulation_station_packages.sh
 sudo ./retropie_setup.sh
 ```
 
